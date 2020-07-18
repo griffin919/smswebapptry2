@@ -1,0 +1,26 @@
+{
+  "name": "smswepapp-take2",
+  "version": "1.0.1",
+  "description": "second try",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/griffin919/smswebapptake2.git"
+  },
+  "keywords": [
+    "smsapp"
+  ],
+  "author": "kofi_babone",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "nexmo": "^2.8.0"
+  }
+}
